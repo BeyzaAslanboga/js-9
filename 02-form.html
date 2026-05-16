@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feedback Form</title>
+    <script type="module" crossorigin src="/vanilla-app-template/assets/02-form-C4Nedexq.js"></script>
+  </head>
+  <body>
+    <form class="feedback-form" autocomplete="off">
+      <label>
+        Email
+        <input type="email" name="email" autofocus />
+      </label>
+
+      <label>
+        Message
+        <textarea name="message" rows="8"></textarea>
+      </label>
+
+      <button type="submit">Submit</button>
+    </form>
+
+    <style>
+      .feedback-form {
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+
+      .feedback-form label {
+        display: block;
+        margin-bottom: 10px;
+      }
+
+      .feedback-form input,
+      .feedback-form textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+
+      .feedback-form button {
+        margin-top: 20px;
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      .feedback-form button:hover {
+        background-color: #0056b3;
+      }
+    </style>
+  </body>
+</html>
